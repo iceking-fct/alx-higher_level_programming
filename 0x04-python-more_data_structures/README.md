@@ -16,15 +16,23 @@ Why Python Programming is Awesome:
 
 		    Dictionaries:
 
-		        Definition and Usage: Dictionaries store data as key-value pairs for fast retrieval based on keys.
-			    When to Use Dictionaries: They are ideal for mapping relationships where keys are unique identifiers.
-			        Keys: Keys in dictionaries uniquely identify values stored within them.
-				    Iteration: Dictionaries can be iterated over using for loops to access keys, values, or key-value pairs.
+		       
 
-				    Lambda Functions and Functional Programming:
+        Definition and Usage: Dictionaries store data as key-value pairs for fast retrieval based on keys.
+		When to Use Dictionaries: They are ideal for mapping relationships where keys are unique identifiers.
+			
+            Keys: Keys in dictionaries uniquely identify values stored within them.
+		Iteration: Dictionaries can be iterated over using for loops to access keys, values, or key-value pairs.
 
-				        Lambda Functions: Small anonymous functions defined using the lambda keyword.
-					    Map, Reduce, Filter Functions:
-					            map(): Applies a function to each item in an iterable.
-						            filter(): Filters elements based on a condition.
-							            reduce(): Applies a rolling computation to sequential pairs of values.
+				    
+
+        Lambda Functions and Functional Programming:
+
+		 Lambda Functions: Small anonymous functions defined using the lambda keyword.
+		Map, Reduce, Filter Functions:
+		map(): Applies a function to each item in an iterable.
+		filter(): Filters elements based on a condition.
+		reduce(): Applies a rolling computation to sequential pairs of values.
+
+
+        signed: iceking-fct
