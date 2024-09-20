@@ -1,0 +1,214 @@
+# DIGILEARN – A Digital Skills Mentorship Platform
+
+**DIGILEARN** is an online mentorship and learning platform designed to help individuals from all over the world acquire digital skills and transition into the IT industry. It provides structured, reliable resources, making it easier for learners to access the right tools, learn at their own pace, and progress in their careers.
+
+
+
+
+## Table of Contents
+- [Overview](#overview)
+- [Contributors](#contributors)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies and Requirements)
+- [Project Timeline](#project-timeline)
+- [Usage](#usage)
+- [Challenges and Learnings](#challenges-and-learnings)
+- [Future Improvements](#Future Improvements)
+
+
+
+## Overview
+DIGILEARN was built with the mission to provide structured and accessible digital skills education to individuals at all stages of their learning journey. With this platform, users can access curated learning resources, tutorials, mentorship opportunities, and track their progress through an intuitive dashboard. The project was developed over a six-week period by a team of four developers, each contributing to different aspects of the platform.
+
+
+
+
+## Contributors
+
+1. [Blessing Ogor](https://github.com/esbee27)
+Blessing handled the bulk of the backend development. She was responsible for building the API, designing the database schema, and managing the integration between the frontend and backend systems. Her expertise in backend development allowed us to efficiently handle user data and API requests.
+
+
+2. [Mariam Oyinlomo Alabi](https://github.com/morrryyyyy)
+Mariam was one of our frontend developers, responsible for designing and developing the user interface, including the student dashboard, profile pages, and other interactive components. Her focus was on ensuring that the platform was visually appealing and easy to navigate.
+
+
+3. [Daniel Malle](https://github.com/DanielMalle2023)
+Like Mariam, Daniel worked on the frontend, ensuring that the design was both mobile and web-friendly. He helped implement the user experience components and collaborated with Mariam to create a smooth, responsive interface.
+ 
+
+4. [Miracle Amajama](https://github.com/iceking-fct)
+Focused primarily on curating the mentorship resources, including video tutorials and blog posts for various topics. He also contributed to backend discussions by providing code ideas, and planing.
+
+
+
+
+
+### Purpose
+The purpose of DIGILEARN is to solve the challenges learners face in finding reliable, structured resources online. The platform is designed to:
+- Provide high-quality digital skill mentorship and resources.
+- Offer a structured, easy-to-follow learning path.
+- Ensure accessibility on both mobile and web platforms.
+  
+
+
+
+
+## Key Features
+
+1. **Mentorship Resources**: A collection of high-quality video tutorials, blog posts, and articles covering various digital skills topics.
+
+2. **User Dashboard**: A personalized dashboard where learners can track their progress, view completed courses, and manage their profiles.
+
+3. **Responsive Design**: The platform is mobile-friendly, providing an optimized learning experience on any device.
+
+4. **API Integration**: A robust API that handles user authentication, data management, and resource retrieval.
+
+5. **Student Profiles**: Each user has a profile page to manage their learning activities and course progress.
+
+
+
+
+## Technologies and Requirements
+
+DigiLearn leverages a variety of technologies and frameworks to provide a smooth and reliable user experience. Below is a detailed list of the technologies and dependencies used in the project:
+Backend Technologies
+
+
+1. Flask: The primary backend framework used for developing the web application. Flask was chosen for its simplicity and flexibility.
+  
+
+2. Flask-Login: Used to manage user authentication, providing session management, login/logout functionalities, and user authentication handling.
+
+
+3. Flask-SQLAlchemy: This extension integrates SQLAlchemy with Flask to manage the database, allowing for smooth API request handling and ORM (Object Relational Mapping) functionality.
+   
+
+4.  SQLAlchemy: The core ORM used for database management, enabling complex queries and handling of user data.
+   
+
+5.  Django: Although Flask was the primary framework, Django was incorporated into certain aspects of the platform for its robust security features and admin functionalities.
+   
+
+6.  Gunicorn: A Python WSGI HTTP server for running the Flask app in production environments.
+
+
+
+
+# Frontend Technologies
+
+    HTML5, CSS3, Bootstrap: These technologies were used to create responsive and user-friendly frontend components, ensuring the platform is accessible on both web and mobile devices.
+    Jinja2: A templating engine integrated with Flask for rendering dynamic content on the front end.
+
+# Key Dependencies
+
+The project also relies on several Python libraries and packages to manage various backend functions and web application features. The versions used are listed below:
+
+
+
+asgiref==3.8.1
+blinker==1.8.2
+click==8.1.7
+colorama==0.4.6
+Django==5.0.6
+Flask==3.0.3
+Flask-Login==0.6.3
+Flask-SQLAlchemy==3.1.1
+greenlet==3.0.3
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+SQLAlchemy==2.0.32
+sqlparse==0.5.0
+typing_extensions==4.12.2
+tzdata==2024.1
+Werkzeug==3.0.3
+gunicorn
+
+
+
+
+# Additional Requirements
+
+To ensure smooth development and deployment, the following tools were employed:
+
+  1. Werkzeug: A comprehensive WSGI web application library used alongside Flask for utilities such as debugging, URL routing, and request handling.
+ 
+2. asgiref: This library provides ASGI support, ensuring compatibility with both synchronous and asynchronous frameworks.
+
+
+ 3.   greenlet: Used for concurrent programming, making database queries and API requests more efficient.
+
+These technologies enabled the team to build a functional, secure, and scalable platform that caters to users’ digital learning needs.
+
+
+
+
+## Project Timeline
+
+The DIGILEARN project was completed over six weeks, following a structured timeline:
+1. **Weeks 1-2: Planning & Design**  
+   Brainstormed features, user flows, and the tech stack. Created wireframes and prepared the system architecture.
+   
+2. **Weeks 3-4: Backend & Frontend Development**  
+   Developed the backend API and database schema while simultaneously designing and building the frontend interface.
+   
+3. **Week 5: Integration**  
+   Integrated the backend API with the frontend, ensuring data flow and functionality between user interactions and the database.
+   
+4. **Week 6: Testing & Final Touches**  
+   Conducted user testing, identified bugs, optimized performance, and completed the final polish of the platform.
+
+
+
+
+## Usage
+
+Once the application is running, users can:
+
+    Sign up and create their profile.
+    Access curated mentorship resources (video tutorials, blog posts, articles).
+    Track their learning progress via the personalized dashboard.
+    Use the platform on any device thanks to its mobile-responsive design.
+
+
+
+
+
+## Challenges Faced
+
+ 1.  Technology Integration: Integrating Flask for the backend with SQLAlchemy for database management posed initial difficulties. Handling API requests and ensuring seamless communication between the front and back ends required collaboration and debugging.
+
+
+ 2. Dashboard Bug: A significant issue arose when a new user logged in—the dashboard displayed information from the previous user's session. This was resolved through session management improvements and better user authentication handling.
+
+
+ 3. Time Management: Balancing the demands of both frontend and backend development within the six-week timeframe proved challenging. The team overcame this by allocating specific roles and prioritizing critical features for the platform.
+ 
+
+4. Project Idea Implementation: Translating project ideas into functional code was another area where we faced challenges. However, through consistent collaboration and revisiting our design plans, we were able to refine the platform's core functionalities.
+
+
+
+
+## Learnings
+
+ 1. Collaborative Problem-Solving: The team learned the importance of collaboration, especially when overcoming the dashboard bug and managing API requests. Regular communication and task division enabled us to solve problems efficiently.
+
+ 2.  Effective Resource Management: Given limited hardware resources, some team members had to adapt and contribute in alternative ways, such as focusing on content creation. This experience highlighted the importance of flexibility and maximizing available tools.
+
+
+ 3. Mobile Responsiveness: Ensuring the platform worked well on both desktop and mobile was an essential focus. We learned to use responsive design frameworks effectively, which enhanced the platform's usability across devices.
+
+
+
+
+
+
+## Future Improvements
+
+1. Additional Learning Resources: Expanding the mentorship materials and providing more specialized digital skill courses.
+    
+2. Scalability: Optimizing the backend for larger datasets and users.
+   
+3.  Advanced Features: Adding more interactive components like quizzes, assessments, and progress tracking for learners.
