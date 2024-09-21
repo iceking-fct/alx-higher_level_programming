@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 import random
+
 number = random.randint(-10000, 10000)
 ld = number % 10 if number > 0 else (abs(number) % 10) * -1
 
-
 # function to create response message
+
+
 def getmsg(num):
     if num > 5:
         return "greater than 5"
@@ -13,4 +15,6 @@ def getmsg(num):
     else:
         return "0"
 
+
+# Corrected print statement
 print(f"Last digit of {number} is {ld} and is {getmsg(ld)}")
